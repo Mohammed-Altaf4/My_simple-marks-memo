@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Student Login | Andhra University</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- LEFT SIDE -->
+      <div class="left-panel">
+        <img
+          src="https://tse3.mm.bing.net/th?id=OIP._OAmqVz2jFebyHQFxvnFOwHaHq&pid=Api"
+          alt="AU Logo"
+        />
+        <h1>ANDHRA UNIVERSITY</h1>
+        <h3>ఆంధ్ర విశ్వకళా పరిషత్</h3>
+        <p>Re-accredited by NAAC with A++ Grade (CGPA: 3.74)</p>
+      </div>
+
+      <!-- RIGHT SIDE -->
+      <div class="right-panel">
+        <h2>Login to Student Portal</h2>
+
+        <form action="/login" method="POST">
+          <input type="text" name="regid" placeholder="Register ID" required />
+          <input
+            type="password"
+            name="password"
+            placeholder="Password"
+            required
+          />
+
+          <div class="options">
+            <label><input type="checkbox" /> Remember me</label>
+            <a href="#">Forgot password?</a>
+          </div>
+
+          <button type="submit">Login</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
