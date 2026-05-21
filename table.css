@@ -1,0 +1,114 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+    margin: 20px;
+}
+
+.header {
+    text-align: center;
+}
+
+.logo {
+    width: 90px;
+    height: auto;
+}
+
+.accredit {
+    color: #003366;
+    font-size: 0.9rem;
+}
+
+.exam-title {
+    background-color: #d6ecf7;
+    padding: 15px;
+    text-align: center;
+    border-radius: 5px;
+    margin: 15px 0;
+    font-weight: bold;
+    color: #00529b;
+}
+
+.student-details p {
+    margin: 3px 0;
+}
+
+.highlight {
+    background-color: #a0d8ef;
+    padding: 8px;
+    border-radius: 4px;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+/* Main Marks Table */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 10px 0;
+}
+
+th, td {
+    border: 1px solid #b3b0b0;
+    padding: 8px 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #e0f7fa;
+    font-weight: 600;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f1f7f8;
+}
+
+/* Nested Tables for Revaluation and GPA */
+.info-table {
+    width: 100%;
+    border: none;
+    margin-top: 20px;
+}
+
+.nested-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.nested-table th, .nested-table td {
+    border: 1px solid #b3b0b0;
+    padding: 6px 10px;
+    text-align: center;
+}
+
+.gpa {
+    background-color: #4caf50;
+    color: white;
+    font-weight: bold;
+}
+
+/* Notes */
+.notes {
+    margin: 20px 0;
+}
+
+.notes ol {
+    padding-left: 20px;
+}
+
+/* Print Button */
+.print-btn {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.print-btn button {
+    padding: 8px 15px;
+    font-size: 1rem;
+    cursor: pointer;
+}
